@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.de",
+    "module": "dev-experience-logging",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dev-experience-logging-1.0-SNAPSHOT.jar",
+          "url": "dev-experience-logging-1.0-SNAPSHOT.jar",
+          "size": 1804,
+          "sha512": "ab9ea919d67e803f7e56cf9b26b6e26c24ee684c8c19fd09ec8001e0370e17d5facf622d9906273fb26aa832243870fb3f31454d4d744b68e7450c33dc671259",
+          "sha256": "bd46709fee18ddcb531c6b7c98f3909ea1a3948be43ca8fbb58d1be361086435",
+          "sha1": "8f2c10e458c3737ac68689a251bb6abe16495240",
+          "md5": "e3bd1a2ec98fde80315d761f226cc74e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-log4j2"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dev-experience-logging-1.0-SNAPSHOT.jar",
+          "url": "dev-experience-logging-1.0-SNAPSHOT.jar",
+          "size": 1804,
+          "sha512": "ab9ea919d67e803f7e56cf9b26b6e26c24ee684c8c19fd09ec8001e0370e17d5facf622d9906273fb26aa832243870fb3f31454d4d744b68e7450c33dc671259",
+          "sha256": "bd46709fee18ddcb531c6b7c98f3909ea1a3948be43ca8fbb58d1be361086435",
+          "sha1": "8f2c10e458c3737ac68689a251bb6abe16495240",
+          "md5": "e3bd1a2ec98fde80315d761f226cc74e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dev-experience-logging-1.0-SNAPSHOT-javadoc.jar",
+          "url": "dev-experience-logging-1.0-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "f81f3530124381658ab7e44b936178c1860cd1b8fc4b4b463063384cb3aa61e2761e9499787e031266373a0c100f49b581c56133025c663a4d2092c2453c84c2",
+          "sha256": "394c07654dce59207e59dd2fadf62dd9a80d96342a5519235860bb52fa1aa237",
+          "sha1": "475f477d0ae6ac40abf75b64c497fdc2dcb26723",
+          "md5": "c0afe0c345c8e45d5a6093d082672cf8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dev-experience-logging-1.0-SNAPSHOT-sources.jar",
+          "url": "dev-experience-logging-1.0-SNAPSHOT-sources.jar",
+          "size": 1804,
+          "sha512": "ae4d68fa298f629fe303bd7f3abc287b4434ef6f3238d32683d4934cd132131f23b04450da1555c17b64290ab42fdc721a9712ef35dbe1ecbcdfe596751fcca0",
+          "sha256": "1ae506545e4073cdbf2ff50e03cbc97d6b5a0c9ae1410f4e96d77baa916fd607",
+          "sha1": "6df954379739203a79cb21c793cad5f2e1717fcc",
+          "md5": "4bc3895ba825ff6e34635f968b439269"
+        }
+      ]
+    }
+  ]
+}
